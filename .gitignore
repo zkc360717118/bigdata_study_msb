@@ -1,0 +1,3 @@
+# Project exclude paths
+/bigdata-hive/target/
+/bigdata-spark/target/
