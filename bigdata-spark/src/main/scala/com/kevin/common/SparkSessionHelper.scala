@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-object SparkInitWithKerberos {
+object SparkSessionHelper {
   def main(args: Array[String]): Unit = {
 //    val spark = initSparkSessionFromWindow(false)
     val spark = initSparkSessionFromWindow(false)

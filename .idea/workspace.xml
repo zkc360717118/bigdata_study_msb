@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02adc70a-edff-4361-b3c4-5b9e71b4b024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/ssl-client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/core-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hdfs-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hive-site.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/kerberos/hive.keytab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/kerberos/krb5.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/ssl-client.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/test" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/common/SparkInitWithKerberos.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson01_rdd_api01.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson02_rdd_api_sort.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/WordCountScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/WordCountScala.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/core-site.xml.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hdfs-site.xml.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hive-site.xml.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/ssl-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/ssl-client.xml.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/common/SparkInitWithKerberos.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/common/SparkSessionHelper.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson01_rdd_api01.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson01_rdd_api01.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +82,7 @@
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lesson01_rdd_api01">
+  <component name="RunManager" selected="Application.lesson02_rdd_api_sort">
     <configuration name="HIveJdbcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hive.com.HIveJdbcClient" />
       <module name="bigdata-hive" />
@@ -107,7 +97,7 @@
       </method>
     </configuration>
     <configuration name="SparkInitWithKerberos" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kevin.common.SparkInitWithKerberos" />
+      <option name="MAIN_CLASS_NAME" value="com.kevin.common.SparkSessionHelper" />
       <module name="bigdata-spark" />
       <extension name="coverage">
         <pattern>
@@ -145,6 +135,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lesson02_rdd_api_sort" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kevin.rdd.lesson02_rdd_api_sort" />
+      <module name="bigdata-spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kevin.rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -160,6 +163,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson02_rdd_api_sort" />
         <item itemvalue="Application.lesson01_rdd_api01" />
         <item itemvalue="Application.SparkInitWithKerberos" />
         <item itemvalue="Application.WordCountScala" />
@@ -176,12 +180,24 @@
       <option name="presentableId" value="Default" />
       <updated>1613451023631</updated>
       <workItem from="1613451024988" duration="9125000" />
-      <workItem from="1613879646281" duration="21023000" />
+      <workItem from="1613879646281" duration="25392000" />
     </task>
+    <task id="LOCAL-00001" summary="spark study">
+      <created>1614869381285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614869381285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spark study" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark study" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
