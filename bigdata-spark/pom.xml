@@ -21,6 +21,16 @@
             <groupId>org.apache.spark</groupId>
             <artifactId>spark-core_2.11</artifactId>
             <version>2.3.4</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.codehaus.janino</groupId>
+                    <artifactId>janino</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.codehaus.janino</groupId>
+                    <artifactId>commons-compiler</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.apache.spark</groupId>
@@ -48,6 +58,21 @@
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>5.1.48</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.11.8</version>
+        </dependency>
+        <dependency>
+            <artifactId>janino</artifactId>
+            <groupId>org.codehaus.janino</groupId>
+            <version>3.0.8</version>
+        </dependency>
+        <dependency>
+        <artifactId>commons-compiler</artifactId>
+        <groupId>org.codehaus.janino</groupId>
+        <version>3.0.8</version>
         </dependency>
     </dependencies>
 </project>

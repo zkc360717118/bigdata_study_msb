@@ -4,7 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="02adc70a-edff-4361-b3c4-5b9e71b4b024" name="Default Changelist" comment="" />
+    <list default="true" id="02adc70a-edff-4361-b3c4-5b9e71b4b024" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/ssl-client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/kerberos/hive.keytab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/kerberos/krb5.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/ssl-client.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/common/SparkInitWithKerberos.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson01_rdd_api01.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/WordCountScala.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/WordCountScala.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +37,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Package Object" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -37,6 +61,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1oY690WtQV915VxbRBLK7Jww6h9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -44,29 +69,49 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bigdata-spark" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/bigdata-spark/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.41494253" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources" />
+      <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources\kerberos" />
+      <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources\bigdata_config" />
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.WordCountScala">
+  <component name="RunManager" selected="Application.lesson01_rdd_api01">
     <configuration name="HIveJdbcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hive.com.HIveJdbcClient" />
       <module name="bigdata-hive" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hive.com.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SparkInitWithKerberos" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kevin.common.SparkInitWithKerberos" />
+      <module name="bigdata-spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kevin.common.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,8 +132,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="lesson01_rdd_api01" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.kevin.rdd.lesson01_rdd_api01" />
+      <module name="bigdata-spark" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kevin.rdd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lesson01_rdd_api01" />
+        <item itemvalue="Application.SparkInitWithKerberos" />
         <item itemvalue="Application.WordCountScala" />
         <item itemvalue="Application.HIveJdbcClient" />
       </list>
@@ -103,7 +176,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613451023631</updated>
       <workItem from="1613451024988" duration="9125000" />
-      <workItem from="1613879646281" duration="3030000" />
+      <workItem from="1613879646281" duration="21023000" />
     </task>
     <servers />
   </component>
