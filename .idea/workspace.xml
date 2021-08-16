@@ -5,10 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02adc70a-edff-4361-b3c4-5b9e71b4b024" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/sparkstreaming/tool/MakeSocketData.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/sparkstreaming/window.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-self-build/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-self-build/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-self-build/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-self-build/yarn-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/core-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hdfs-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hive-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/yarn-site.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bigdata-spark/src/test/java/sparksql/TestSpark.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson02_rdd_api_sort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/rdd/lesson02_rdd_api_sort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/bigdata-spark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/core-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-cdh/core-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/hdfs-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-cdh/hdfs-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/hive-site.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-cdh/hive-site.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/ssl-client.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/resources/bigdata_config/home-cdh/ssl-client.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/core-site.xml.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hdfs-site.xml.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/hive-site.xml.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/resources/ssl-client.xml.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/common/SparkSessionHelper.scala" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata-spark/src/main/scala/com/kevin/common/SparkSessionHelper.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +66,6 @@
   <component name="ProjectId" id="1oY690WtQV915VxbRBLK7Jww6h9" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -57,11 +74,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mashibing/spark-2.3.4/spark-2.3.4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spark-2.3.4/spark-2.3.4" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.41494253" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -69,18 +86,20 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources" />
+      <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources\bigdata_config\home-self-build" />
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources\kerberos" />
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources\bigdata_config" />
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources\bigdata_config\home-cdh" />
       <recent name="G:\projects\bigdata_study_msb\bigdata-spark\src\main\resources" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="MakeSocketData" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.window">
+  <component name="RunManager" selected="Application.TestSpark">
     <configuration name="MakeSocketData" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kevin.sparkstreaming.tool.MakeSocketData" />
       <module name="bigdata-spark" />
@@ -94,7 +113,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SparkInitWithKerberos" type="Application" factoryName="Application" temporary="true">
+    <configuration name="SparkSessionHelper" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.kevin.common.SparkSessionHelper" />
       <module name="bigdata-spark" />
       <extension name="coverage">
@@ -107,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lesson01_rdd_api01" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.kevin.rdd.lesson01_rdd_api01" />
+    <configuration name="TestSpark" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="sparksql.TestSpark" />
       <module name="bigdata-spark" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kevin.rdd.*" />
+          <option name="PATTERN" value="sparksql.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -146,26 +165,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestSpark" />
+        <item itemvalue="Application.SparkSessionHelper" />
         <item itemvalue="Application.MakeSocketData" />
         <item itemvalue="Application.window" />
         <item itemvalue="Application.lesson02_rdd_api_sort" />
-        <item itemvalue="Application.lesson01_rdd_api01" />
-        <item itemvalue="Application.SparkInitWithKerberos" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +188,9 @@
       <workItem from="1615298127916" duration="605000" />
       <workItem from="1617718549329" duration="956000" />
       <workItem from="1618726872001" duration="4159000" />
+      <workItem from="1628990240875" duration="1409000" />
+      <workItem from="1629019407845" duration="8662000" />
+      <workItem from="1629123164534" duration="1108000" />
     </task>
     <task id="LOCAL-00001" summary="spark study">
       <created>1614869381285</created>
@@ -206,6 +215,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="spark study" />
     <option name="LAST_COMMIT_MESSAGE" value="spark study" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2-sources.jar!/org/apache/hadoop/hive/ql/metadata/Hive.java</url>
+          <line>1597</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/spark-project/hive/hive-exec/1.2.1.spark2/hive-exec-1.2.1.spark2-sources.jar!/org/apache/hadoop/hive/ql/metadata/Hive.java</url>
+          <line>1592</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
